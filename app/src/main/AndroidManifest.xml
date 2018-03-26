@@ -18,6 +18,8 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <receiver android:name=".MyBroadcastReceiver"></receiver>
+    <receiver android:name=".MyBroadcastReceiver"/>
+
+    <service android:name=".Pending" />
   </application>
 </manifest>
